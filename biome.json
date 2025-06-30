@@ -6,14 +6,14 @@
     "useIgnoreFile": false
   },
   "files": {
-    "ignoreUnknown": false
+    "ignoreUnknown": false,
+    "includes": ["**/*"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2,
-    "lineWidth": 120,
-    "formatWithErrors": true
+    "lineWidth": 120
   },
   "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {

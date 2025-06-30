@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "tailwindcss"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["classnames", "clsx", "cva"],
+      "config": "tailwind.config.ts",
+      "removeDuplicates": true
+    }
+  },
+  "rules": {
+    "tailwindcss/no-custom-classname": "off" // (opcional: depende do seu uso)
+  }
+}
