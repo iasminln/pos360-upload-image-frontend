@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "biome:check": "biome check --write"
+    "biome:fix": "biome check --write"
   },
   "dependencies": {
     "@biomejs/biome": "^2.0.6",
     "@radix-ui/react-collapsible": "^1.1.11",
     "@radix-ui/react-progress": "^1.1.7",
+    "axios": "^1.10.0",
+    "immer": "^10.1.1",
     "lucide-react": "^0.522.0",
     "motion": "^12.19.2",
     "react": "^19.1.0",
